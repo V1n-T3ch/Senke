@@ -86,7 +86,7 @@ export default function MotorcycleDetail() {
                                 <h1 className="text-4xl font-bold text-white">{bike.name}</h1>
                             </div>
                             <div className="text-right">
-                                <div className="text-3xl font-bold text-primary">${bike.price.toLocaleString()}</div>
+                                <div className="text-3xl font-bold text-primary">Ksh. {bike.price.toLocaleString()}</div>
                                 <div className={`text-sm ${bike.inStock ? 'text-green-500' : 'text-red-500'}`}>
                                     {bike.inStock ? '✓ In Stock' : '✗ Out of Stock'}
                                 </div>

@@ -38,7 +38,7 @@ export default function MotorcycleCard({ bike }) {
                         <span className="block">Power: {bike.power}</span>
                     </div>
                     <span className="text-2xl font-bold text-primary">
-                        ${bike.price.toLocaleString()}
+                        Ksh. {bike.price.toLocaleString()}
                     </span>
                 </div>
                 <Link
